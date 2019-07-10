@@ -35,7 +35,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Material Kit React"
+          brand="Cromwell Heating"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
