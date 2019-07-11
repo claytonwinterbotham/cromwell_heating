@@ -25,11 +25,11 @@ module.exports = {
       // - Change the injection order
       // - Add the plugin
       options: {
-        // stylesProvider: {
-        //   injectFirst: true,
-        // },
+         stylesProvider: {
+           injectFirst: true,
+         },
       },
-      // 'gatsby-plugin-styled-components',
+       'gatsby-plugin-styled-components',
     }
   ],
 }
