@@ -24,13 +24,13 @@ module.exports = {
       // If you want to use styled components, in conjunction to Material-UI, you should:
       // - Change the injection order
       // - Add the plugin
-      options: {
-         stylesProvider: {
-           injectFirst: true,
-         },
-      },
+      //options: {
+         //stylesProvider: {
+           //injectFirst: true,
+         //},
+     // },
     },
-    'gatsby-plugin-styled-components',
+    //'gatsby-plugin-styled-components',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     //'gatsby-plugin-offline',
