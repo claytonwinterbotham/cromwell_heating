@@ -13,7 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "gatsby-plugin-material-ui @material-ui/styles",
+    "gatsby-plugin-material-ui": "^2.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/pro-light-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
