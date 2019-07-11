@@ -9,7 +9,6 @@ import LockOutlined from "@material-ui/icons/LockOutlined";
 // React icons
 import {FaFacebook, FaTwitter, FaGooglePlusG } from 'react-icons/fa';
 // core components
-import Header from "components/Header/Header.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -46,13 +45,6 @@ class LoginPage extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
-        <Header
-          absolute
-          color="transparent"
-          brand="Material Kit React"
-          rightLinks={<HeaderLinks />}
-          {...rest}
-        />
         <div
           className={classes.pageHeader}
           style={{

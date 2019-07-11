@@ -1,8 +1,11 @@
 import React from "react";
 import LandingPage from "./LandingPage/LandingPage";
+import Layout from "../components/Layout";
 
 export default () => (
-  <LandingPage/>
+  <Layout>
+    <LandingPage/>
+  </Layout>
 );
 
 
