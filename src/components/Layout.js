@@ -2,7 +2,7 @@ import React, { Component }from 'react';
 import Header from './Header/Header';
 import HeaderLinks from './Header/HeaderLinks';
 import withStyles from "@material-ui/core/styles/withStyles";
-import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import layoutPageStyle from "assets/jss/material-kit-react/views/layoutPage.jsx";
 const dashboardRoutes = [];
 
 
@@ -31,5 +31,5 @@ class Layout extends Component {
     }
 }
 
-export default withStyles(landingPageStyle)(Layout)
+export default withStyles(layoutPageStyle)(Layout)
 

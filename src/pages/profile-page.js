@@ -3,7 +3,7 @@ import ProfilePage from "./ProfilePage/ProfilePage";
 import Layout from "../components/Layout";
 
 export default () => (
-  //<Layout>
+  <Layout>
     <ProfilePage/>
-  //</Layout>
+  </Layout>
 );
