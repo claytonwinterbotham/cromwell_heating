@@ -7,10 +7,10 @@ import 'typeface-roboto';
 import 'typeface-roboto-slab';
 // pages for this product
 import Components from "./Components/Components.jsx";
-import LandingPage from "./landing-page";
+import LandingPage from "./LandingPage/LandingPage.jsx";
 import ProfilePage from "./ProfilePage/ProfilePage.jsx";
 import LoginPage from "./LoginPage/LoginPage.jsx";
-import FontAwesome from "../components/FontAwesome"
+import FontAwesome from "../components/FontAwesome";
 
 let hist = createMemoryHistory();
 
@@ -19,7 +19,7 @@ export default () => (
     <Switch>
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
-      <Route path="/" component={LandingPage} />
+      <Route path="/landing-page" component={LandingPage} />
     </Switch>
   </Router>
 );
