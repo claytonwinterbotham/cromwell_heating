@@ -3,9 +3,9 @@ import LandingPage from "./LandingPage/LandingPage";
 import Layout from "../components/Layout";
 
 export default () => (
-  <Layout>
+  //<Layout>
     <LandingPage/>
-  </Layout>
+  //</Layout>
 );
 
 
