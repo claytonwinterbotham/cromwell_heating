@@ -4,6 +4,7 @@ module.exports = {
     title: 'Cromwell Heating',
   },
   plugins: [
+    'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-offline',
     'gatsby-plugin-sass',
