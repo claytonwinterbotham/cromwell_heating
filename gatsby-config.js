@@ -29,7 +29,7 @@ module.exports = {
            injectFirst: true,
          },
       },
-       'gatsby-plugin-styled-components',
+       'gatsby-plugin-styled-components'
     }
   ],
 }
